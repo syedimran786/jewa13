@@ -1,0 +1,103 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,body
+{
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #efefef;
+}
+
+/* Navbar Starts */
+nav
+{
+    background-color: white;
+    padding: 29px 5px;
+}
+
+nav li
+{
+    display: inline;
+}
+
+ul
+{
+    display: inline;
+    margin-left: 300px;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 40px;
+    color: gray;
+}
+
+nav ul li a:hover
+{
+    color: rgb(63, 158, 247);
+}
+
+.brand-logo
+{
+    text-decoration: none;
+    font-size: 23px;
+    margin-left: 70px; 
+    color: black;
+}
+.navbar-icons
+{
+    display: inline;
+    margin-left: 20px ;
+}
+.fab
+{
+    color: gray;
+    font-size: 20px;
+}
+.fab:hover
+{
+    color: rgb(63, 158, 247);
+}
+
+.banner
+{
+    height: 500px;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("https://cdn.pixabay.com/photo/2020/08/02/14/18/blue-5457731__340.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.banner-content
+{
+    color: white;
+    width: 650px;
+    padding: 20px;
+    text-align: center;
+    margin: 100px auto;
+}
+.banner-content h1
+{
+    font-size: 50px;
+}
+.banner-content p
+{
+    font-size: 20px;
+}
+.banner-content button
+{
+    margin-top: 15px;
+    background-color: rgb(114, 172, 226);
+    color: white;
+    padding: 12px 30px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+}
+/* Navbar Ends */
