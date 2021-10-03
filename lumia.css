@@ -69,7 +69,7 @@ nav ul li a:hover
 .banner
 {
     height: 500px;
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("https://cdn.pixabay.com/photo/2020/08/02/14/18/blue-5457731__340.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("./hero-bg.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -101,3 +101,108 @@ nav ul li a:hover
     border-radius: 6px;
 }
 /* Navbar Ends */
+
+/* What We Do starts */
+    .what
+    {
+        margin: 50px;
+    }
+
+    .what h1
+    {
+        text-align: center;
+        font-size: 38px;
+    }
+    .what-p
+    {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .what-cards .what-card-child
+    {
+       
+        height: 250px;
+        width: 350px;
+        text-align: center;
+        padding: 8px;
+    }
+
+    .what-card-child div
+    {
+        margin-top: 58px;
+    }
+
+    .what-card-child h4
+    {
+        margin-top: 8px;
+        margin-bottom: 8px;
+        font-size: 20px;
+    }
+
+    .what-card-child
+    {
+        display: inline-block;
+        margin-left: 40px;
+    }
+    .what-card-child:hover
+    {
+        box-shadow: 4px 4px 25px 10px rgba(128, 128, 128, 0.418);
+        cursor: pointer;
+    }
+
+    .what-card-child:hover h4
+    {
+        color: rgb(132, 202, 243);
+    }
+    .what-cards
+    {
+        margin-top: 20px;
+    }
+    .fa-dribbble,.fa-file-pdf,.fa-tachometer
+    {
+        font-size: 23px;
+        background-color: rgba(173, 216, 230, 0.253);
+        height: 50px;
+        width: 50px;
+        padding: 10px;
+        border-radius:100%;
+        color:rgb(132, 202, 243);
+    }
+
+    .what .line1
+    {
+        background-color: rgb(248, 37, 37);
+        /* height: 5px; */
+        width: 50px;
+        /* margin: 5px auto; */
+        margin-right: -3px;
+    }
+
+    .what .line2
+    {
+        background-color: rgb(37, 171, 248);
+        height: 5px;
+        width: 50px;
+        /* margin: 5px auto; */
+    }
+
+    .what .line3
+    {
+        background-color: rgb(55, 248, 37);
+        /* height: 5px; */
+        width: 50px;
+        /* margin: 5px auto; */
+        margin-left: -5px;
+    }
+    
+    .what hr
+    {
+        display: inline-block;
+    }
+
+    .my-hrs
+    {
+        margin: 2px 537px;
+    }
+/* What We Do ends */
