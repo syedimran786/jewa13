@@ -18,6 +18,9 @@ nav
 {
     background-color: white;
     padding: 29px 5px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
 }
 
 nav li
@@ -206,3 +209,78 @@ nav ul li a:hover
         margin: 2px 537px;
     }
 /* What We Do ends */
+
+/* About us Starts */
+    .about-us
+    {
+        padding: 50px;
+    }
+
+    .about-us-img,.about-us-content
+    {
+        width: 600px;
+        display: inline-block;
+    }
+
+    .about-us-content
+    {
+        margin-left: 35px;
+        padding: 20px;
+    }
+    .about-us-img img
+    {
+        height: 100%;
+        width: 100%;
+    }
+
+    .about-icons
+    {
+        width: 270px;
+        padding: 20px;
+        display: inline-block;
+        
+    }
+    .about-us-content-heading p
+    {
+        font-size: 20px;
+        margin-top: -20px;
+    }
+    .about-us-content-heading h1
+    {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .about-us-content-heading
+    {
+        margin-bottom: 40px;
+    }
+    .about-us-content li
+    {
+        margin-bottom: 20px;
+        list-style-type: none;
+    }
+
+    .about-icons h4
+    {
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .fa-file-invoice,.fa-cube
+    {
+        font-size: 35px;
+    }
+   .fa-check-double,.fa-file-invoice,.fa-cube
+   {
+       color: rgb(0, 153, 255);
+   }
+/* About us Ends */
+progress
+{
+    height: 20px;
+    width: 600px;
+    border-radius: 0;
+    background-color: rgb(0, 153, 255);
+}
