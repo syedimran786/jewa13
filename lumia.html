@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lumia</title>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link rel="stylesheet" href="./lumia.css">
 </head>
 <body>
@@ -41,10 +43,10 @@
             <a href=""><i class="fab fa-linkedin"></i></a>
         </div>
     </nav>
-    <div class="banner-content">
-        <h1>Welcome to Lumia</h1>
-        <p>We are team of talented designers making websites with Bootstrap</p>
-        <button>GET STARTED</button>
+    <div class="banner-content" >
+        <h1 data-aos="fade-down" data-aos-duration="2000">Welcome to Lumia</h1>
+        <p data-aos="fade-up" data-aos-duration="2000">We are team of talented designers making websites with Bootstrap</p>
+        <button data-aos="flip-left" data-aos-duration="2000">GET STARTED</button>
     </div>
    </div>
    <!-- Navbar Ends -->
@@ -60,21 +62,21 @@
        <p class="what-p">Magnam dolores commodi suscipit consequatur ex aliquid</p>
        <!-- Div Cards Starts -->
        <div class="what-cards">
-            <div class="what-card-child">
+            <div class="what-card-child" data-aos="fade-right" data-aos-duration="2000" data-aos-once="true">
                <div>
                 <i class="fab fa-dribbble"></i>
                 <h4>Lorem Ipsum</h4>
                 <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
                </div>
             </div>
-            <div class="what-card-child">
+            <div class="what-card-child" data-aos="fade-left" data-aos-duration="2000" data-aos-once="true">
                 <div>
                     <i class="far fa-file-pdf"></i>
                     <h4>Sed ut perspiciatis</h4>
                     <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
                 </div>
             </div>
-            <div class="what-card-child">
+            <div class="what-card-child" data-aos="fade-down" data-aos-duration="2000" data-aos-once="true">
                 <div>
                     <i class="far fa-tachometer"></i>
                     <h4>Magni Dolores</h4>
@@ -130,7 +132,85 @@
    <!-- <progress value="50" max="100"></progress> -->
 
    <!-- Gallery Starts -->
-        
+        <!-- <div class="gallery">
+            <h1>Gallery</h1>
+            <hr>
+            <div>
+                <img src="https://bootstrapmade.com/demo/templates/Lumia/assets/img/portfolio/portfolio-1.jpg" alt="">
+                <div class="gallery-content">
+                    <p>App1 <br>APP</p>
+                </div>
+            </div>
+        </div> -->
    <!-- Gallery Ends -->
+
+   <!-- Team Starts -->
+        <div class="team">
+            <h1>Team</h1>
+            <hr>
+            <p>
+                Sit sint consectetur velit quos quisquam cupiditate nemo qui
+            </p>
+
+            <div class="cards">
+                <div class="card-content">
+                    <img src="https://bootstrapmade.com/demo/templates/Lumia/assets/img/team/team-1.jpg" alt="">
+                    <h4>Walter White</h4>
+                    <p>Chief Executive Officer</p>
+                    <p>
+                        Magni qui quod omnis unde et eos fuga et exercitationem. 
+                        Odio veritatis perspiciatis quaerat qui aut aut aut
+                    </p>
+                </div>
+                <div class="card-content">
+                    <img src="https://bootstrapmade.com/demo/templates/Lumia/assets/img/team/team-2.jpg" alt="">
+                    <h4>Walter White</h4>
+                    <p>Chief Executive Officer</p>
+                    <p>
+                        Magni qui quod omnis unde et eos fuga et exercitationem. 
+                        Odio veritatis perspiciatis quaerat qui aut aut aut
+                    </p>
+                </div>
+                <div class="card-content">
+                    <img src="https://bootstrapmade.com/demo/templates/Lumia/assets/img/team/team-3.jpg" alt="">
+                    <h4>Walter White</h4>
+                    <p>Chief Executive Officer</p>
+                    <p>
+                        Magni qui quod omnis unde et eos fuga et exercitationem. 
+                        Odio veritatis perspiciatis quaerat qui aut aut aut
+                    </p>
+                </div>
+            </div>
+        </div>
+   <!-- Team Ends -->
+
+   <!-- Contact Starts -->
+        <div class="contact">
+            <h1>Contact US</h1>
+            <div class="my-form">
+                <form action="">
+                   <div class="input-email">
+                    <input type="text" placeholder="Your Name">
+                    <input type="text" placeholder="Your Email">
+                   </div>
+                    
+                    <div class="input-subject">
+                        <input type="text" placeholder="Subject">
+                    </div>
+                    <div class="input-message">
+                        <textarea placeholder="Message" rows="10px"></textarea>
+                    </div>
+                   <div>
+                    <button>Send Message</button>
+                   </div>
+                </form>
+            </div>
+        </div>
+   <!-- Contact Ends -->
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+   <script>
+     AOS.init();
+   </script>
+ 
 </body>
 </html>
